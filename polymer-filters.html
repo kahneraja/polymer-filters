@@ -14,6 +14,7 @@
 <script src="filter-truncate.js"></script>
 <script src="filter-titlecase.js"></script>
 <script src="filter-ltrim.js"></script>
+<script src="filter-money.js"></script>
 <script src="filter-rtrim.js"></script>
 <script src="filter-trim.js"></script>
 <script src="filter-length.js"></script>
@@ -182,6 +183,10 @@ A collection of filters for formatting values of [Polymer expressions](http://ww
     {{ "Hello World!" | capitalize }}
 
 > Hello world!
+
+####Money
+
+    Show me the money: ${{ 12345.678 | money }}
 
 @element polymer-filters
 @blurb A collection of Polymer filters for formatting values of expressions for display to users
